@@ -29,3 +29,10 @@ Route::get('/admin/berita', function () {
     return view('/admin/berita');
 });
 
+Route::get('/admin/guru', function () {
+    return view('/admin/guru');
+});
+
+Route::get('/admin/tambahguru', function () {
+    return view('/admin/tambahguru');
+});
