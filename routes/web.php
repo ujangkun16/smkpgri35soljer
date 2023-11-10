@@ -13,6 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Route::get('/', function () {
+    return view('index');
+});
+
 Route::get('/admin', function () {
     return view('/admin/index');
 });
@@ -28,4 +32,6 @@ Route::get('/admin/galeri', function () {
 Route::get('/admin/berita', function () {
     return view('/admin/berita');
 });
+
+
 
