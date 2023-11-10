@@ -302,25 +302,28 @@
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr> 
-                  <th>Judul Berita</th>
-                  <th>Kategori</th>
-                    <th>Isi Berita</th>
-                    <th>Slug</th>
-                    <th>Gambar</th>
-                    <th>Waktu Dibuat</th>
+                  <th>Kode Guru</th>
+                  <th>Nama Guru</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Mata Pelajaran</th>
+                    <th>Kontak</th>
+                    <th>Alamat</th>
+                    <th>Tanggal Lahir</th>
                     <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
+                    @foreach ($guru as $guru)
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td>{{ $guru -> kode_guru}}</td>
+                    <td>{{ $guru -> nama}}</td>
+                    <td>{{ $guru -> jenis_kelamin}}</td>
+                    <td>{{ $guru -> mapel}}</td>
+                    <td>{{ $guru -> kontak}}</td>
+                    <td>{{ $guru -> alamat}}</td>
+                    <td>{{ $guru -> tgl_lahir}}</td>
                   </tr>
+                  @endforeach
 </tbody>
 </table>
 
