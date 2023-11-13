@@ -72,20 +72,20 @@
                 <li>
                   <a href="index.php" class="nav-link text-left">Home</a>
                 </li>
-                <li class="active">
+                <li>
                   <a href="/about" class="nav-link text-left">Profil</a>
                 </li>
-                <li class="has-children">
+                <li class=" active has-children">
                   <a href="#" class="nav-link text-left">Akademik</a>
                   <ul class="dropdown">
-                  <li class="has-children"><a href="#">Program Keahlian</a>
+                  <li class="active has-children"><a href="#">Program Keahlian</a>
                   <ul class="dropdown">
-                    <li><a href="/rpl">Rekayasa Perangkat Lunak</a></li>
+                    <li class=" active"><a href="/rpl">Rekayasa Perangkat Lunak</a></li>
                     <li><a href="/tkj">Teknik Komputer Jaringan</a></li> 
                   </ul>
                 <li>
                     </li>
-                    <li><a href="/guru-tendik">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
+                    <li><a href="teachers.html">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
                     <li><a href="/sarpras">Sarana Prasarana</a></li>
                   </ul>
                 <li>
@@ -122,7 +122,7 @@
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-7">
-              <h2 class="mb-0">Tentang kami</h2>
+              <h2 class="mb-0">Rekayasa Perangkat Lunak</h2>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </div>
           </div>
@@ -132,9 +132,11 @@
 
     <div class="custom-breadcrumns border-bottom">
       <div class="container">
-        <a href="#">Home</a>
+        <a href="/about">Akademik</a>
         <span class="mx-3 icon-keyboard_arrow_right"></span>
-        <span class="current">Profil</span>
+        <span>Program Keahlian</span>
+        <span class="mx-3 icon-keyboard_arrow_right"></span>
+        <span class="current">Rekayasa Perangkat Lunak</span>
       </div>
     </div>
 
@@ -142,7 +144,7 @@
             <div class="row">
               <div class="col-lg-4">
                 <h2 class="section-title-underline">
-                  <span>Sejarah</span>
+                  <span>Deskripsi</span>
                 </h2>
               </div>
               <div class="col-lg-4">
@@ -163,7 +165,7 @@
                 </div>
                 <div class="col-lg-5 ml-auto align-self-center">
                     <h2 class="section-title-underline mb-5">
-                        <span>Visi</span>
+                        <span>Skill</span>
                     </h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque dolore libero corrupti! Itaque, delectus?</p>
                     <p>Modi sit dolor repellat esse! Sed necessitatibus itaque libero odit placeat nesciunt, voluptatum totam facere.</p>
@@ -176,7 +178,7 @@
                     </div>
                     <div class="col-lg-5 mr-auto align-self-center order-2 order-lg-1">
                         <h2 class="section-title-underline mb-5">
-                            <span>Misi</span>
+                            <span>Peluang Karir</span>
                         </h2>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque dolore libero corrupti! Itaque, delectus?</p>
                         <p>Modi sit dolor repellat esse! Sed necessitatibus itaque libero odit placeat nesciunt, voluptatum totam facere.</p>

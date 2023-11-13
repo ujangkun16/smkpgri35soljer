@@ -77,11 +77,17 @@
                   <a href="/about" class="nav-link text-left">Profil</a>
                 </li>
                 <li class="has-children">
-                  <a href="about.html" class="nav-link text-left">Akademik</a>
+                  <a href="#" class="nav-link text-left">Akademik</a>
                   <ul class="dropdown">
-                    <li><a href="about.html">Program Keahlian</a></li>
-                    <li><a href="teachers.html">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
-                    <li><a href="about.html">Sarana Prasarana</a></li>
+                  <li class="has-children"><a href="#">Program Keahlian</a>
+                  <ul class="dropdown">
+                    <li><a href="/rpl">Rekayasa Perangkat Lunak</a></li>
+                    <li><a href="/tkj">Teknik Komputer Jaringan</a></li> 
+                  </ul>
+                <li>
+                    </li>
+                    <li><a href="/guru-tendik">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
+                    <li><a href="/sarpras">Sarana Prasarana</a></li>
                   </ul>
                 <li>
                   <a href="courses.html" class="nav-link text-left">Ekstrakulikuler</a>
