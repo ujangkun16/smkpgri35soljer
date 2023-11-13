@@ -211,7 +211,7 @@
 
 
           <li class="nav-item">
-            <a href="/admin/dashboard" class="nav-link">
+            <a href="/" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Home
@@ -225,7 +225,7 @@
           
           
           <li class="nav-item">
-            <a href="/admin/galeri" class="nav-link">
+            <a href="/galeri" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
@@ -233,7 +233,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/fasilitas" class="nav-link">
+            <a href="/fasilitas" class="nav-link">
               <i class="nav-icon fas fa-columns"></i>
               <p>
                 Fasilitas
@@ -241,7 +241,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/admin/pesan" class="nav-link">
+            <a href="/pesan" class="nav-link">
             <i class="nav-icon far fa-envelope"></i>
               <p>
                 Pesan
@@ -251,12 +251,11 @@
           </li>
           
           <li class="nav-item">
-            <a href="/admin/berita" class="nav-link">
+            <a href="/berita" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Berita</p>
             </a>
           </li>
-
 
           <li class="nav-item">
             <a href="/admin/guru" class="nav-link">
@@ -264,7 +263,6 @@
               <p>Data Guru</p>
             </a>
           </li>
-          
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -279,7 +277,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Berita</h1>
+            <h1 class="m-0">Tambah Galeri</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -292,40 +290,76 @@
     </div>
     <!-- /.content-header -->
 
-    <!-- Main content -->
-    <section class="content">
+
+
+
+
+
+
+   <!-- Main content -->
+   <section class="content">
       <div class="container-fluid">
- 
+        <div class="row">
+          <!-- left column -->
+          <div class="col-md-6">
+            <!-- general form elements -->
+            <div class="card card-primary">
+              <div class="card-header">
+                <h3 class="card-title">Quick Example</h3>
+              </div>
+              <!-- /.card-header -->
+              <!-- form start -->
+              <form method="post" action=">
+                <div class="card-body">
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Kode Guru</label>
+                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Kode Guru" name="kode_guru">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Nama Guru</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nama Guru" name="nama">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Jenis Kelamin</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Jenis Kelamin" name="jenis_kelamin">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Mata Pelajaran</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Mata Pelajaran" name="mapel">
+                  </div>
 
-      <h3><a href="/tambahberita">+Tambah Berita Baru</a></h3><br>
-<div class="card-body">
-                <table id="example2" class="table table-bordered table-hover">
-                  <thead>
-                  <tr> 
-                  <th>Judul Berita</th>
-                  <th>Kategori</th>
-                    <th>Isi Berita</th>
-                    <th>Slug</th>
-                    <th>Gambar</th>
-                    <th>Waktu Dibuat</th>
-                    <th>Action</th>
-                  </tr>
-                  </thead>
-                  <tbody>
-                  <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                  </tr>
-</tbody>
-</table>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Kontak</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Kontak" name="kontak">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Alamat</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Alamat" name="alamat">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Tanggal Lahir</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Tanggal Lahir" name="tgl_lahir">
+                  </div>
 
 
 
+                
+
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Password</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+                  </div>
+
+                <!-- /.card-body -->
+
+                <div class="card-footer">
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+              </form>
+            </div>
+            <!-- /.card -->
 
 
               <!-- /.card-body -->
@@ -341,8 +375,11 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2023 SMK PGRI 35 Solokanjeruk.</strong>
+    <strong>Copyright &copy; 2023 SMK PGRI35SOLOKANJERUK.</strong>
     All rights reserved.
+    <div class="float-right d-none d-sm-inline-block">
+      <b>Version</b> 3.2.0
+    </div>
   </footer>
 
   <!-- Control Sidebar -->
