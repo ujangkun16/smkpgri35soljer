@@ -63,7 +63,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.html" class="d-block">
+            <a href="index.php" class="d-block">
               <img src="master/images/logo.gif" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -90,7 +90,7 @@
                     <li><a href="/sarpras">Sarana Prasarana</a></li>
                   </ul>
                 <li>
-                  <a href="courses.html" class="nav-link text-left">Ekstrakulikuler</a>
+                  <a href="/ekstrakulikuler" class="nav-link text-left">Ekstrakulikuler</a>
                 </li>
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
@@ -104,9 +104,9 @@
           </div>
           <div class="ml-auto">
             <div class="social-wrap">
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-youtube"></span></a>
+            <a href="https://www.instagram.com/smkpgri_35soljer/"target="_blank"><span class="icon-instagram"></span></a>
+              <a href="https://www.facebook.com/smkpgri35soljer/"target="_blank"><span class="icon-facebook"></span></a>
+              <a href="https://www.youtube.com/@smkpgri35solokanjeruk12"target="_blank"><span class="icon-youtube"></span></a>
 
               <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
                 class="icon-menu h3"></span></a>
@@ -124,7 +124,12 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-              <h1>SMK PGRI 35 SOLOKAN JERUK</h1>
+            <div class="col-lg-2 mx-auto justify-content-center">
+                    <img src="master/images/pgri.png" alt="Image" class="img-fluid"> 
+                </div>
+                <br>
+            <h1>SMK PGRI 35 SOLOKAN JERUK</h1>
+              <h5><b>Sekolah Unggulan Favorit</b> dengan pilihan Program Keahlian<br><b>Rekayasa Perangkat Lunak</b> dan <b>Teknik Komputer Jaringan</b></h5>
             </div>
           </div>
         </div>
@@ -134,7 +139,12 @@
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
+            <div class="col-lg-2 mx-auto justify-content-center">
+                    <img src="master/images/smk.jpg" alt="Image" class="img-fluid"> 
+                </div>
+                <br>
               <h1>SMK PUSAT KEUNGGULAN</h1>
+              <h5><b>Pusat Keunggulan : Melahirkan Profesional Tangguh dan Kreatif</b></h5>
             </div>
           </div>
         </div>
@@ -163,20 +173,21 @@
               </div>
               <div class="feature-1-content">
                 <h2>Rekayasa Perangkat Lunak</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-                <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
+                <p>Mempersiapkan siswa untuk menjadi ahli dalam merancang, mengembangkan, dan mengelola perangkat lunak inovatif untuk memenuhi tuntutan teknologi yang terus berkembang.</p>
+                <p><a href="/rpl" class="btn btn-primary px-4 rounded-0">Selengkapnya</a></p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
             <div class="feature-1 border">
               <div class="icon-wrapper bg-primary">
-                <span class="flaticon-school-material text-white"></span>
+                <span class="flaticon-mortarboard text-white"></span>
               </div>
               <div class="feature-1-content">
                 <h2>Teknik Komputer Jaringan</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-                <p><a href="#" class="btn btn-primary px-4 rounded-0">Learn More</a></p>
+                <p>Membekali siswa dengan keterampilan teknis tingkat tinggi dalam merancang, mengelola, dan memelihara infrastruktur komputer dan jaringan.</p>
+                <br>
+                <p><a href="/tkj" class="btn btn-primary px-4 rounded-0">Selengkapnya</a></p>
               </div>
             </div> 
           </div> 

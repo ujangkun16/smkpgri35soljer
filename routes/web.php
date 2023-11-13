@@ -37,6 +37,10 @@ Route::get('/sarpras', function () {
     return view('sarpras');
 });
 
+Route::get('/ekstrakulikuler', function () {
+    return view('ekstrakulikuler');
+});
+
 Route::get('/admin', function () {
     return view('/admin/index');
 });

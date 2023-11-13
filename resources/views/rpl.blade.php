@@ -62,7 +62,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.html" class="d-block">
+            <a href="index.php" class="d-block">
               <img src="master/images/logo.gif" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -85,11 +85,11 @@
                   </ul>
                 <li>
                     </li>
-                    <li><a href="teachers.html">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
+                    <li><a href="/guru-tendik">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
                     <li><a href="/sarpras">Sarana Prasarana</a></li>
                   </ul>
                 <li>
-                  <a href="courses.html" class="nav-link text-left">Ekstrakulikuler</a>
+                  <a href="/ekstrakulikuler" class="nav-link text-left">Ekstrakulikuler</a>
                 </li>
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
@@ -103,9 +103,9 @@
           </div>
           <div class="ml-auto">
             <div class="social-wrap">
-              <a href="#"><span class="icon-instagram"></span></a>
-              <a href="#"><span class="icon-facebook"></span></a>
-              <a href="#"><span class="icon-youtube"></span></a>
+            <a href="https://www.instagram.com/smkpgri_35soljer/" target="_blank"><span class="icon-instagram"></span></a>
+              <a href="https://www.facebook.com/smkpgri35soljer/"target="_blank"><span class="icon-facebook"></span></a>
+              <a href="https://www.youtube.com/@smkpgri35solokanjeruk12"target="_blank"><span class="icon-youtube"></span></a>
 
               <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
                 class="icon-menu h3"></span></a>
