@@ -348,9 +348,15 @@
                   </div>
 
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Gambar</label>
-                    <input type="file" id="pickPhoto" name="gambar" accept="image/jpeg,image/png,image/gif"/>
-                  </div>
+                                <label class="font-weight-bold">GAMBAR</label>
+                                <input type="file" class="form-control @error('image') is-invalid @enderror" name="gambar">
+                            
+                                <!-- error message untuk title -->
+                                @error('image')
+                                    <div class="alert alert-danger mt-2">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
 
                 <!-- /.card-body -->
 
