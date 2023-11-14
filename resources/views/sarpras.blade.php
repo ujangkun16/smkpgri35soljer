@@ -49,7 +49,7 @@
         <div class="row align-items-center">
           <div class="col-lg-9 d-none d-lg-block">
             <a href="#" class="small mr-3"><span class="icon-phone2 mr-2"></span> 022-85962018</a> 
-            <a href="https://instagram/smkpgri35soljer" class="small mr-3"><span class="icon-whatsapp mr-2"></span>Ofiicial Whatsapp</a> 
+            <a href="https://wa.link/t31gwo" class="small mr-3"><span class="icon-whatsapp mr-2"></span>Ofiicial Whatsapp</a> 
           </div>
           <div class="col-lg-3 text-right">
             <a href="/admin" class="small btn btn-primary px-4 py-2 rounded-0 con-unlock-alt"><span class="icon-users"></span> Login</a>
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.php" class="d-block">
+            <a href="/" class="d-block">
               <img src="master/images/logo.gif" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -70,7 +70,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li>
-                  <a href="index.php" class="nav-link text-left">Home</a>
+                  <a href="/" class="nav-link text-left">Home</a>
                 </li>
                 <li>
                   <a href="/about" class="nav-link text-left">Profil</a>
@@ -78,7 +78,7 @@
                 <li class=" active has-children">
                   <a href="#" class="nav-link text-left">Akademik</a>
                   <ul class="dropdown">
-                  <li class="children"><a href="#">Program Keahlian</a>
+                  <li class="has-children"><a href="#">Program Keahlian</a>
                   <ul class="dropdown">
                     <li><a href="/rpl">Rekayasa Perangkat Lunak</a></li>
                     <li><a href="/tkj">Teknik Komputer Jaringan</a></li> 
@@ -95,7 +95,7 @@
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="nav-link text-left">Berita</a>
+                    <a href="/berita" class="nav-link text-left">Berita</a>
                 </li>
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
