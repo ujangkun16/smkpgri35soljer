@@ -41,6 +41,10 @@ Route::get('/ekstrakulikuler', function () {
     return view('ekstrakulikuler');
 });
 
+Route::get('/berita', function () {
+    return view('berita');
+});
+
 Route::get('/admin', function () {
     return view('/admin/index');
 });
