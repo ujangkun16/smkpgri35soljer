@@ -118,102 +118,29 @@
 
     </header>
 
-    
-    <div class="hero-slide owl-carousel site-blocks-cover">
-      <div class="intro-section" style="background-image: url('master/images/hero_1.jpg');">
+    <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('master/images/bg_1.jpg')">
         <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-            <div class="col-lg-2 mx-auto justify-content-center">
-                    <img src="master/images/pgri.png" alt="Image" class="img-fluid"> 
-                </div>
-                <br>
-            <h1>SMK PGRI 35 SOLOKAN JERUK</h1>
-              <h5><b>Sekolah Unggulan Favorit</b> dengan pilihan Program Keahlian<br><b>Rekayasa Perangkat Lunak</b> dan <b>Teknik Komputer Jaringan</b></h5>
+          <div class="row align-items-end">
+            <div class="col-lg-7">
+              <h2 class="mb-0">Berita Terbaru</h2>
+
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="intro-section" style="background-image: url('master/images/hero_2.jpg');">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
-            <div class="col-lg-2 mx-auto justify-content-center">
-                    <img src="master/images/smk.jpg" alt="Image" class="img-fluid"> 
-                </div>
-                <br>
-              <h1>SMK PUSAT KEUNGGULAN</h1>
-              <h5><b>Pusat Keunggulan : Melahirkan Profesional Tangguh dan Kreatif</b></h5>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
+      </div> 
     
 
-    <div></div>
-
-    <div class="site-section">
+    <div class="custom-breadcrumns border-bottom">
       <div class="container">
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-4 mb-5">
-            <h2 class="section-title-underline mb-5">
-              <span>PROGRAM KEAHLIAN</span>
-            </h2>
-          </div>
-        </div>
-        <div class="row justify-content-center">
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-
-            <div class="feature-1 border">
-              <div class="icon-wrapper bg-primary">
-                <span class="flaticon-mortarboard text-white"></span>
-              </div>
-              <div class="feature-1-content">
-                <h2>Rekayasa Perangkat Lunak</h2>
-                <p>Mempersiapkan siswa untuk menjadi ahli dalam merancang, mengembangkan, dan mengelola perangkat lunak inovatif untuk memenuhi tuntutan teknologi yang terus berkembang.</p>
-                <p><a href="/rpl" class="btn btn-primary px-4 rounded-0">Selengkapnya</a></p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-            <div class="feature-1 border">
-              <div class="icon-wrapper bg-primary">
-                <span class="flaticon-mortarboard text-white"></span>
-              </div>
-              <div class="feature-1-content">
-                <h2>Teknik Komputer Jaringan</h2>
-                <p>Membekali siswa dengan keterampilan teknis tingkat tinggi dalam merancang, mengelola, dan memelihara infrastruktur komputer dan jaringan.</p>
-                <br>
-                <p><a href="/tkj" class="btn btn-primary px-4 rounded-0">Selengkapnya</a></p>
-              </div>
-            </div> 
-          </div> 
-          </div>
-        </div>
+        <a href="#">Berita</a>
+        <span class="mx-3 icon-keyboard_arrow_right"></span>
+        <span class="current">Terbaru</span>
       </div>
     </div>
 
 
     <div class="site-section">
       <div class="container">
-
-
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-6 mb-5">
-            <h2 class="section-title-underline mb-3">
-              <span>Informasi Terbaru</span> <!--dari database-->
-            </h2>
-            <p></p>
-          </div>
-        </div>
-
         <div class="row">
           <div class="col-12">
               <div class="owl-slide-3 owl-carousel">
@@ -305,122 +232,98 @@
     </div>
 
     
-
-
-    <div class="section-bg style-1" style="background-image: url('images/about_1.jpg');">
+    <div class="site-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
-            <h2 class="section-title-underline style-2">
-              <span>Kata Sambutan</span>
-            </h2>
-          </div>
-          <div class="col-lg-8">
-            <p class="lead">Selamat datang di SMK PGRI 35 Solokanjeruk, lembaga pendidikan yang berdedikasi untuk memberikan pendidikan berkualitas dan pembelajaran inovatif kepada para generasi muda. Program pendidikan kami didesain untuk mempersiapkan siswa tidak hanya secara akademis, tetapi juga secara sosial dan emosional, dengan menekankan nilai-nilai etika, kepemimpinan, dan kerjasama.
-<p>Di SMK PGRI 35 Solokanjeruk, kami menawarkan berbagai macam program pendidikan dan kegiatan ekstrakurikuler yang melengkapi kurikulum akademis. Dengan fasilitas modern dan berbagai sumber daya pendukung, kami menciptakan lingkungan yang mendukung eksplorasi kreatif dan pengembangan potensi siswa.</p> </p>
-            <p>Kami mempersembahkan ... <a href="#">Selengkapnya</a></p>
+          <div class="col-12">
+              <div class="owl-slide-3 owl-carousel">
+                  <div class="course-1-item">
+                    <figure class="thumnail">
+                      <a href="course-single.html"><img src="master/images/hero_1.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="price">BERITA</div>
+                      <div class="category"><h3>Kegiatan</h3></div>  
+                    </figure>
+                    <div class="course-1-content pb-4">
+                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
+                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
+                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
+                    </div>
+                  </div>
+                  <div class="course-1-item">
+                    <figure class="thumnail">
+                      <a href="course-single.html"><img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="price">BERITA</div>
+                      <div class="category"><h3>Kegiatan</h3></div>  
+                    </figure>
+                    <div class="course-1-content pb-4">
+                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
+                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
+                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
+                    </div>
+                  </div>
+      
+                  <div class="course-1-item">
+                    <figure class="thumnail">
+                      <a href="course-single.html"><img src="master/images/course_1.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="price">BERITA</div>
+                      <div class="category"><h3>Kegiatan</h3></div>  
+                    </figure>
+                    <div class="course-1-content pb-4">
+                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
+                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
+                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
+                    </div>
+                  </div>
+
+                  <div class="course-1-item">
+                    <figure class="thumnail">
+                      <a href="course-single.html"><img src="master/images/course_2.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="price">BERITA</div>
+                      <div class="category"><h3>Kegiatan</h3></div>  
+                    </figure>
+                    <div class="course-1-content pb-4">
+                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
+                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
+                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
+                    </div>
+                  </div>
+      
+                  <div class="course-1-item">
+                    <figure class="thumnail">
+                      <a href="course-single.html"><img src="master/images/hero_1.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="price">BERITA</div>
+                      <div class="category"><h3>Kegiatan</h3></div>  
+                    </figure>
+                    <div class="course-1-content pb-4">
+                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
+                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
+                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
+                    </div>
+                  </div>
+      
+                  <div class="course-1-item">
+                    <figure class="thumnail">
+                      <a href="course-single.html"><img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"></a>
+                      <div class="price">BERITA</div>
+                      <div class="category"><h3>Kegiatan</h3></div>  
+                    </figure>
+                    <div class="course-1-content pb-4">
+                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
+                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
+                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
+                    </div>
+                  </div>
+      
+              </div>
+      
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- // 05 - Block -->
-  <div class="site-section">
-      <div class="container">
-        <div class="row mb-5">
-          <div class="col-lg-4">
-            <h2 class="section-title-underline">
-              <span>Testimoni Siswa</span> <!--// database-->
-            </h2>
-          </div>
-        </div>
-
-
-        <div class="owl-slide owl-carousel">
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_1.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_3.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-            </div>
-          </div>
-
-        </div>
+        
         
       </div>
     </div>
-    
+
 
     <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
       <div class="container">

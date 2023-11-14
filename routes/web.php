@@ -28,6 +28,30 @@ Route::get('/about', function () {
     return view('about');
 });
 
+Route::get('/rpl', function () {
+    return view('rpl');
+});
+
+Route::get('/tkj', function () {
+    return view('tkj');
+});
+
+Route::get('/guru-tendik', function () {
+    return view('guru-tendik');
+});
+
+Route::get('/sarpras', function () {
+    return view('sarpras');
+});
+
+Route::get('/ekstrakulikuler', function () {
+    return view('ekstrakulikuler');
+});
+
+Route::get('/berita', function () {
+    return view('berita');
+});
+
 Route::get('/admin', function () {
     return view('/admin/index');
 });
