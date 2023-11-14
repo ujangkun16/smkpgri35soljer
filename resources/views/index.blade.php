@@ -50,7 +50,7 @@
         <div class="row align-items-center">
           <div class="col-lg-9 d-none d-lg-block">
             <a href="#" class="small mr-3"><span class="icon-phone2 mr-2"></span> 022-85962018</a> 
-            <a href="https://instagram/smkpgri35soljer" class="small mr-3"><span class="icon-whatsapp mr-2"></span>Ofiicial Whatsapp</a> 
+            <a href="https://wa.link/t31gwo" class="small mr-3"><span class="icon-whatsapp mr-2"></span>Ofiicial Whatsapp</a> 
           </div>
           <div class="col-lg-3 text-right">
             <a href="/admin" class="small btn btn-primary px-4 py-2 rounded-0 con-unlock-alt"><span class="icon-users"></span> Login</a>
