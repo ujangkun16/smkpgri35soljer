@@ -200,6 +200,9 @@
                     <td>{{ $guru -> kontak}}</td>
                     <td>{{ $guru -> alamat}}</td>
                     <td>{{ $guru -> tgl_lahir}}</td>
+                    <td><button><a href="/guru/{{$guru->id}}/hapusguru"  onclick="return confirm('Apakah Anda yakin ingin menghapus data {{$guru->nama}} ?');" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i>Hapus</a> </button>| 
+                    <button><a href="/guru/{{$guru->id}}/editguru" class="btn btn-info btn-sm"><i class="fa fa-edit"></i>Edit</a></button></td>
+                  </tr>
                   </tr>
                   @endforeach
 </tbody>

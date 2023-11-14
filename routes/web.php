@@ -77,6 +77,12 @@ Route::get('/admin/tambahguru', function () {
 
 Route::post('/admin/simpanguru', [GuruController::class, 'store']);
 
+Route::get('/guru/{id}/hapusguru', [GuruController::class,'hapusguru']);
+
+Route::get('/guru/{id}/editguru', [GuruController::class,'editguru']);
+Route::post('/admin/{id}/updateguru', [GuruController::class, 'updateguru']);
+
+
 
 Route::get('/admin/tambahberita', function () {
     return view('/admin/tambahberita');

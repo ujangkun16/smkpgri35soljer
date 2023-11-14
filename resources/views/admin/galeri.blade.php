@@ -102,7 +102,7 @@
           
           
           <li class="nav-item">
-            <a href="/galeri" class="nav-link">
+            <a href="/admin/galeri" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
@@ -110,7 +110,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/fasilitas" class="nav-link">
+            <a href="/admin/fasilitas" class="nav-link">
               <i class="nav-icon fas fa-columns"></i>
               <p>
                 Fasilitas
@@ -118,7 +118,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/pesan" class="nav-link">
+            <a href="/admin/pesan" class="nav-link">
             <i class="nav-icon far fa-envelope"></i>
               <p>
                 Pesan
@@ -128,9 +128,23 @@
           </li>
           
           <li class="nav-item">
-            <a href="/berita" class="nav-link">
+            <a href="/admin/berita" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Berita</p>
+            </a>
+          </li>
+
+          <li class="nav-item">
+            <a href="/admin/guru" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Data Guru</p>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a href="/admin/siswa" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Data Siswa</p>
             </a>
           </li>
         </ul>

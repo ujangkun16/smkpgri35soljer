@@ -211,7 +211,7 @@
 
 
           <li class="nav-item">
-            <a href="/" class="nav-link">
+            <a href="/admin/dashboard" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Home
@@ -225,7 +225,7 @@
           
           
           <li class="nav-item">
-            <a href="/galeri" class="nav-link">
+            <a href="/admin/galeri" class="nav-link">
               <i class="nav-icon far fa-image"></i>
               <p>
                 Gallery
@@ -233,7 +233,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/fasilitas" class="nav-link">
+            <a href="/admin/fasilitas" class="nav-link">
               <i class="nav-icon fas fa-columns"></i>
               <p>
                 Fasilitas
@@ -241,7 +241,7 @@
             </a>
           </li>
           <li class="nav-item">
-            <a href="/pesan" class="nav-link">
+            <a href="/admin/pesan" class="nav-link">
             <i class="nav-icon far fa-envelope"></i>
               <p>
                 Pesan
@@ -251,7 +251,7 @@
           </li>
           
           <li class="nav-item">
-            <a href="/berita" class="nav-link">
+            <a href="/admin/berita" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Berita</p>
             </a>
@@ -340,7 +340,7 @@
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Konten</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Konten Berita" name="konten">
+                    <textarea class="form-control" style="height:150px" name="konten" placeholder="Konten"></textarea>
                   </div>
                   <div class="form-group">
                     <label for="exampleInputPassword1">Slug</label>

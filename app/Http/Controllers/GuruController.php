@@ -19,4 +19,26 @@ Guru::create($req->except(['_token','submit']));
 return redirect('/admin/guru');
     }
 
+    public function hapusguru($id)
+    {
+        $guru=Guru::find($id);
+        //dd($guru);
+        $guru->delete();
+        return redirect('/admin/guru');
+    }
+
+    public function editguru($id)
+    {
+        $guru=Guru::find($id);
+        //dd($guru);
+        return view("admin.editguru", compact(['guru']));
+    }
+
+    public function updateguru($id, Request $req){
+        $guru=Guru::find($id);
+        $guru->update($req->except(['_token','submit']));
+        return redirect('/admin/guru');
+    }
+
+
 }
