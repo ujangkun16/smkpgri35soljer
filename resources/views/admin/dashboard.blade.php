@@ -138,6 +138,20 @@
               <p>Berita</p>
             </a>
           </li>
+
+          <li class="nav-item">
+            <a href="/admin/guru" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Data Guru</p>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a href="/admin/siswa" class="nav-link">
+              <i class="nav-icon fas fa-file"></i>
+              <p>Data Siswa</p>
+            </a>
+          </li>
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

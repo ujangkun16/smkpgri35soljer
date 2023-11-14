@@ -13,9 +13,9 @@ class GuruController extends Controller
         $guru = Guru::all();
         return view("admin.guru", compact(['guru']));
     }
-    public function store(reuest $req)
+    public function store(Request $req)
     {
-guru::create($req->except(['_token','submit']));
+Guru::create($req->except(['_token','submit']));
 return redirect('/admin/guru');
     }
 

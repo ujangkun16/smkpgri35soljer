@@ -297,30 +297,31 @@
       <div class="container-fluid">
  
 
-      <h3><a href="/tambahberita">+Tambah Berita Baru</a></h3><br>
+      <h3><a href="/admin/tambahberita">+Tambah Berita Baru</a></h3><br>
 <div class="card-body">
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr> 
+                  <th>Kategori Berita</th>
                   <th>Judul Berita</th>
-                  <th>Kategori</th>
-                    <th>Isi Berita</th>
+                    <th>Konten Berita</th>
                     <th>Slug</th>
                     <th>Gambar</th>
-                    <th>Waktu Dibuat</th>
                     <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
+                  @foreach ($berita as $berita)
                   <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                  <td>{{ $berita -> kategori}}</td>
+                    <td>{{ $berita -> judul}}</td>
+                    <td>{{ $berita -> konten}}</td>
+                    <td>{{ $berita -> slug}}</td>
+                    <td>{{ $berita -> gambar}}</td>
+                    <td><button><a href="/berita/{{$berita->id}}/hapusberita"  onclick="return confirm('Apakah Anda yakin ingin menghapus berita {{$berita->judul}} ?');" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i>Hapus</a> </button>| 
+                    <button><a href="/berita/{{$berita->id}}/editberita" class="btn btn-info btn-sm"><i class="fa fa-edit"></i>Edit</a></button></td>
                   </tr>
+                  @endforeach
 </tbody>
 </table>
 
