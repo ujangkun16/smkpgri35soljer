@@ -8,23 +8,23 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="../AdminLTE/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../../AdminLTE/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
-  <link rel="stylesheet" href="../AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
+  <link rel="stylesheet" href="../../AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css">
   <!-- iCheck -->
-  <link rel="stylesheet" href="../AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <link rel="stylesheet" href="../../AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="../AdminLTE/plugins/jqvmap/jqvmap.min.css">
+  <link rel="stylesheet" href="../../AdminLTE/plugins/jqvmap/jqvmap.min.css">
   <!-- Theme style -->
-  <link rel="stylesheet" href="../AdminLTE/dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="../../AdminLTE/dist/css/adminlte.min.css">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="../AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <link rel="stylesheet" href="../../AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="../AdminLTE/plugins/daterangepicker/daterangepicker.css">
+  <link rel="stylesheet" href="../../AdminLTE/plugins/daterangepicker/daterangepicker.css">
   <!-- summernote -->
-  <link rel="stylesheet" href="../AdminLTE/plugins/summernote/summernote-bs4.min.css">
+  <link rel="stylesheet" href="../../AdminLTE/plugins/summernote/summernote-bs4.min.css">
 </head>
 <body class="hold-transition sidebar-mini layout-fixed">
 <div class="wrapper">
@@ -79,7 +79,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../AdminLTE/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
+              <img src="../../AdminLTE/dist/img/user1-128x128.jpg" alt="User Avatar" class="img-size-50 mr-3 img-circle">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Brad Diesel
@@ -95,7 +95,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../AdminLTE/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="../../AdminLTE/dist/img/user8-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   John Pierce
@@ -111,7 +111,7 @@
           <a href="#" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
-              <img src="../AdminLTE/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
+              <img src="../../AdminLTE/dist/img/user3-128x128.jpg" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
                   Nora Silvester
@@ -172,7 +172,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="../AdminLTE/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+      <img src="../../AdminLTE/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
       <span class="brand-text font-weight-light">MENU</span>
     </a>
 
@@ -181,7 +181,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="../AdminLTE/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+          <img src="../../AdminLTE/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">Profil Admin</a>
@@ -313,58 +313,42 @@
             <!-- general form elements -->
             <div class="card card-primary">
               <div class="card-header">
-                <h3 class="card-title">Quick Example</h3>
+                <h3 class="card-title">Form Edit Berita</h3>
               </div>
               <!-- /.card-header -->
               <!-- form start -->
-              <form method="post" action="/admin/simpanguru">
+
+
+              <form method="post" action="/admin/{{$berita->id}}/updateberita">
                 @csrf
                 <div class="card-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Kode Guru</label>
-                    <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Kode Guru" name="kode_guru">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Nama Guru</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nama Guru" name="nama">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Jenis Kelamin</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Jenis Kelamin" name="jenis_kelamin">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Mata Pelajaran</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Mata Pelajaran" name="mapel">
-                  </div>
+                    <label for="exampleInputEmail1">Kategori Berita</label>
 
+           <input type="text" class="form-control" id="exampleInputEmail1" value="{{ $berita->kategori }}" name="kategori">
+                  </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Kontak</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Kontak" name="kontak">
+                    <label for="exampleInputPassword1">Judul Berita</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" value="{{ $berita->judul }}" name="judul">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Konten</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" value="{{ $berita->konten }}" name="konten">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Slug</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" value="{{ $berita->slug }}" name="slug">
                   </div>
 
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Alamat</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Alamat" name="alamat">
-                  </div>
-
-                  <div class="form-group">
-                    <label for="exampleInputPassword1">Tanggal Lahir</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Tanggal Lahir" name="tgl_lahir">
-                  </div>
-
-
-
-                
-
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Password" name="password">
+                    <label for="exampleInputPassword1">Gambar</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" value="{{ $berita->gambar }}" name="gambar">
                   </div>
 
                 <!-- /.card-body -->
 
                 <div class="card-footer">
-                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="submit" class="btn btn-primary">Edit</button>
                 </div>
               </form>
             </div>
@@ -408,27 +392,27 @@
   $.widget.bridge('uibutton', $.ui.button)
 </script>
 <!-- Bootstrap 4 -->
-<script src="../AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="../../AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
 <!-- ChartJS -->
-<script src="../AdminLTE/plugins/chart.js/Chart.min.js"></script>
+<script src="../../AdminLTE/plugins/chart.js/Chart.min.js"></script>
 <!-- Sparkline -->
-<script src="../AdminLTE/plugins/sparklines/sparkline.js"></script>
+<script src="../../AdminLTE/plugins/sparklines/sparkline.js"></script>
 <!-- JQVMap -->
-<script src="../AdminLTE/plugins/jqvmap/jquery.vmap.min.js"></script>
-<script src="../AdminLTE/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
+<script src="../../AdminLTE/plugins/jqvmap/jquery.vmap.min.js"></script>
+<script src="../../AdminLTE/plugins/jqvmap/maps/jquery.vmap.usa.js"></script>
 <!-- jQuery Knob Chart -->
-<script src="../AdminLTE/plugins/jquery-knob/jquery.knob.min.js"></script>
+<script src="../../AdminLTE/plugins/jquery-knob/jquery.knob.min.js"></script>
 <!-- daterangepicker -->
-<script src="../AdminLTE/plugins/moment/moment.min.js"></script>
-<script src="../AdminLTE/plugins/daterangepicker/daterangepicker.js"></script>
+<script src="../../AdminLTE/plugins/moment/moment.min.js"></script>
+<script src="../../AdminLTE/plugins/daterangepicker/daterangepicker.js"></script>
 <!-- Tempusdominus Bootstrap 4 -->
-<script src="../AdminLTE/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
+<script src="../../AdminLTE/plugins/tempusdominus-bootstrap-4/js/tempusdominus-bootstrap-4.min.js"></script>
 <!-- Summernote -->
-<script src="../AdminLTE/plugins/summernote/summernote-bs4.min.js"></script>
+<script src="../../AdminLTE/plugins/summernote/summernote-bs4.min.js"></script>
 <!-- overlayScrollbars -->
-<script src="../AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
+<script src="../../AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
 <!-- AdminLTE App -->
-<script src="../AdminLTE/dist/js/adminlte.js"></script>
+<script src="../../AdminLTE/dist/js/adminlte.js"></script>
 
 </body>
 </html>
