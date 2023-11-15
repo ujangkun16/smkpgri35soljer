@@ -8,7 +8,7 @@
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="AdminLTE/plugins/fontawesome-free/css/all.min.css">
+  <link rel="stylesheet" href="../AdminLTE/plugins/fontawesome-free/css/all.min.css">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bootstrap 4 -->
@@ -37,8 +37,13 @@
       <li class="nav-item">
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
-      
+   
     </ul>
+
+
+
+
+
 
     <!-- Right navbar links -->
     
@@ -140,13 +145,13 @@
               <p>Data Guru</p>
             </a>
           </li>
-          
           <li class="nav-item">
             <a href="/admin/siswa" class="nav-link">
               <i class="nav-icon fas fa-file"></i>
               <p>Data Siswa</p>
             </a>
           </li>
+
         </ul>
       </nav>
       <!-- /.sidebar-menu -->
@@ -175,28 +180,29 @@
     <section class="content">
       <div class="container-fluid">
  
-
-<h3><a href="/tambahgambar">+Tambah Data Baru</a></h3><br>
+      <h3><a href="/admin/tambahgambar">+Tambah Data Baru</a></h3><br>
 <div class="card-body">
                 <table id="example2" class="table table-bordered table-hover">
                   <thead>
                   <tr>
-                    <th>Id Gambar</th>
+                  <th>Media</th>
                     <th>Caption</th>
-                    <th>Path</th>
                     <th>Action</th>
                   </tr>
                   </thead>
                   <tbody>
+                    @foreach ($datagaleri as $datagaleri)
                   <tr>
-                    <td></td>
-                    <td></td>
+                    <td>
+                      <img src="../img/{{ $datagaleri->media }}" alt={{ $datagaleri->media }} width=90px>
+                    </td>
+                    <td>{{ $datagaleri -> caption}}</td>
                     <td></td>
                     <td></td>
                   </tr>
+                  @endforeach
 </tbody>
 </table>
-
 
 
 
@@ -213,11 +219,8 @@
   </div>
   <!-- /.content-wrapper -->
   <footer class="main-footer">
-    <strong>Copyright &copy; 2014-2021 <a href="https://adminlte.io">AdminLTE.io</a>.</strong>
+    <strong>Copyright &copy; 2023 SMK PGRI 35 Solokanjeruk</a>.</strong>
     All rights reserved.
-    <div class="float-right d-none d-sm-inline-block">
-      <b>Version</b> 3.2.0
-    </div>
   </footer>
 
   <!-- Control Sidebar -->

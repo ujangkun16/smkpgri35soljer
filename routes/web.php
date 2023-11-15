@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\galeriController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -92,3 +93,11 @@ Route::get('/berita/{id}/hapusberita', [BeritaController::class,'hapusberita']);
 
 Route::get('/berita/{id}/editberita', [BeritaController::class,'editberita']);
 Route::post('/admin/{id}/updateberita', [BeritaController::class, 'updateberita']);
+
+//data galeri
+Route::get('/admin/galeri', [galeriController::class,'index']);
+Route::post('/admin/store', [galeriController::class, 'store']);
+
+Route::get('/admin/tambahgambar', function () {
+    return view('/admin/tambahgambar');
+});
