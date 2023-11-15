@@ -75,7 +75,7 @@
                 <li>
                   <a href="/about" class="nav-link text-left">Profil</a>
                 </li>
-                <li class="active has-children">
+                <li class="has-children">
                   <a href="#" class="nav-link text-left">Akademik</a>
                   <ul class="dropdown">
                   <li class="has-children"><a href="#">Program Keahlian</a>
@@ -85,11 +85,11 @@
                   </ul>
                 <li>
                     </li>
-                    <li class="active"><a href="/guru-tendik">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
+                    <li><a href="/guru-tendik">Pendidik dan Tenaga Kependidikan</a></li> <!-- //database -->
                     <li><a href="/sarpras">Sarana Prasarana</a></li>
                   </ul>
                 <li>
-                  <a href="/ekstrakulikuler" class="nav-link text-left">Ekstrakulikuler</a>
+                  <a href="ekstrakulikuler" class="nav-link text-left">Ekstrakulikuler</a>
                 </li>
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
@@ -103,9 +103,9 @@
           </div>
           <div class="ml-auto">
             <div class="social-wrap">
-            <a href="https://www.instagram.com/smkpgri_35soljer/"target="_blank"><span class="icon-instagram"></span></a>
-              <a href="https://www.facebook.com/smkpgri35soljer/"target="_blank"><span class="icon-facebook"></span></a>
-              <a href="https://www.youtube.com/@smkpgri35solokanjeruk12"target="_blank"><span class="icon-youtube"></span></a>
+              <a href="https://www.instagram.com/smkpgri_35soljer/" target="_blank"><span class="icon-instagram"></span></a>
+              <a href="https://www.facebook.com/smkpgri35soljer/" target="_blank"><span class="icon-facebook"></span></a>
+              <a href="https://www.youtube.com/@smkpgri35solokanjeruk12" target="_blank"><span class="icon-youtube"></span></a>
 
               <a href="#" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black"><span
                 class="icon-menu h3"></span></a>
@@ -119,177 +119,53 @@
 
     
     <div class="site-section ftco-subscribe-1 site-blocks-cover pb-4" style="background-image: url('master/images/bg_1.jpg')">
+      
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-7">
-              <h2 class="mb-0">Guru dan Tenaga Kependidikan</h2>
-              <P> </P>
-              <P> </P>
+              <h2 class="mb-0">JUDUL BERITA</h2>
+              <p>Oleh : Admin | tgl</p>
             </div>
           </div>
         </div>
+        
       </div> 
     
 
-    <div class="custom-breadcrumns border-bottom">
-      <div class="container">
-        <a href="#">Akademik</a>
-        <span class="mx-3 icon-keyboard_arrow_right"></span>
-        <span class="current">Pendidik dan Tenaga Kependidikan</span>
-      </div>
-    </div>
-
-    
     <div class="site-section">
         <div class="container">
-
             <div class="row">
-                    <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
-                        <img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"> 
-                    </div>
-                    <div class="col-lg-5 mr-auto align-self-center order-2 order-lg-1">
+                <div class="col-md-6 mb-4">
+                    <p>
+                        <img src="master/images/course_5.jpg" alt="Image" class="img-fluid">
+                    </p>
+                </div>
+                <div class="col-lg-5 ml-auto align-self-center">
                         <h2 class="section-title-underline mb-5">
-                            <span>Kepala Sekolah</span>
+                            <span>Course Details</span>
                         </h2>
+                        
+                        <p><strong class="text-black d-block">Teacher:</strong> Craig Daniel</p>
+                        <p class="mb-5"><strong class="text-black d-block">Hours:</strong> 8:00 am &mdash; 9:30am</p>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque dolore libero corrupti! Itaque, delectus?</p>
                         <p>Modi sit dolor repellat esse! Sed necessitatibus itaque libero odit placeat nesciunt, voluptatum totam facere.</p>
+    
+                        <ul class="ul-check primary list-unstyled mb-5">
+                            <li>Lorem ipsum dolor sit amet consectetur</li>
+                            <li>consectetur adipisicing  </li>
+                            <li>Sit dolor repellat esse</li>
+                            <li>Necessitatibus</li>
+                            <li>Sed necessitatibus itaque </li>
+                        </ul>
+
+                        <p>
+                            <a href="#" class="btn btn-primary rounded-0 btn-lg px-5">Enroll</a>
+                        </p>
+    
                     </div>
-                </div>
-        </div>
-    </div>  
-
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-4 mb-5">
-            <h2 class="section-title-underline mb-5">
-              <span>Wakil Kepala Sekolah</span>
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-        <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Taylor Simpson</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </div>
-    
-      <div class="container">
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-4 mb-5">
-            <h2 class="section-title-underline mb-5">
-              <span>Daftar Guru</span>
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-        @foreach ($dataguru as $dataguru)
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="../img/{{$dataguru->avatar}}" alt="{{$dataguru}}->avatar" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>{{$dataguru -> nama}}</h2>
-                <span class="position mb-3 d-block">{{$dataguru -> mapel}}</span>    
-                <p>Lulusan <b>{{$dataguru -> pendidikan}}.</b> Mengabdi sejak tahun {{$dataguru -> tahunmasuk}}, dengan motto hidup <b>{{$dataguru -> motto}}.</b></p>
-              </div>
-            </div>
-          </div>
-          @endforeach
-        </div>
-      </div>
-    
-
-    <div class="site-section">
-      <div class="container">
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-4 mb-5">
-            <h2 class="section-title-underline mb-5">
-              <span>Tenaga Kependidikan</span>
-            </h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_1.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Craig Daniel</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Taylor Simpson</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_3.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Jonas Tabble</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_4.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Craig Daniel</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Taylor Simpson</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_3.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Jonas Tabble</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    
-    
-
-
-    
 
     
     <div class="site-section ftco-subscribe-1" style="background-image: url('master/images/bg_1.jpg')">

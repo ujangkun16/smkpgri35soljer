@@ -94,9 +94,9 @@
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="/berita" class="nav-link text-left">Berita</a>
-                </li>
+                </li>-->
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
 

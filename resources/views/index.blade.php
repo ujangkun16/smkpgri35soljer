@@ -63,7 +63,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.php" class="d-block">
+            <a href="/" class="d-block">
               <img src="master/images/logo.gif" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -71,7 +71,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li class="active">
-                  <a href="index.php" class="nav-link text-left">Home</a>
+                  <a href="/" class="nav-link text-left">Home</a>
                 </li>
                 <li>
                   <a href="/about" class="nav-link text-left">Profil</a>
@@ -95,9 +95,9 @@
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="/berita" class="nav-link text-left">Berita</a>
-                </li>
+                </li>-->
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
 
@@ -203,8 +203,6 @@
 
     <div class="site-section">
       <div class="container">
-
-
         <div class="row mb-5 justify-content-center text-center">
           <div class="col-lg-6 mb-5">
             <h2 class="section-title-underline mb-3">
@@ -213,97 +211,29 @@
             <p></p>
           </div>
         </div>
-
         <div class="row">
           <div class="col-12">
               <div class="owl-slide-3 owl-carousel">
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="master/images/hero_1.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">BERITA</div>
-                      <div class="category"><h3>Kegiatan</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
-                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
-                    </div>
-                  </div>
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">BERITA</div>
-                      <div class="category"><h3>Kegiatan</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
-                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="master/images/course_1.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">BERITA</div>
-                      <div class="category"><h3>Kegiatan</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
-                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
-                    </div>
-                  </div>
-
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="master/images/course_2.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">BERITA</div>
-                      <div class="category"><h3>Kegiatan</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
-                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="master/images/hero_1.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">BERITA</div>
-                      <div class="category"><h3>Kegiatan</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
-                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
-                    </div>
-                  </div>
-      
-                  <div class="course-1-item">
-                    <figure class="thumnail">
-                      <a href="course-single.html"><img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"></a>
-                      <div class="price">BERITA</div>
-                      <div class="category"><h3>Kegiatan</h3></div>  
-                    </figure>
-                    <div class="course-1-content pb-4">
-                      <h2>Workshop Penyelarasan Kurikulum dengan Industri</h2>
-                      <p class="desc mb-4">Kegiatan dilaksanakan selama tiga hari (01/11/2023) hingga (03/11/2023) di kampus SMK PGRI 35 Solokanjeruk Bersama Universitas Pendidikan Mandalika diwakili oleh Ibu Indipratu & Bapak Fahmi serta PT Inovindo diwakili oleh Bapak Novi Setia dan Bapak Cecep.</p>
-                      <p><a href="course-single.html" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
-                    </div>
-                  </div>
-      
+                  @foreach ($berita as $berita)
+                      <div class="course-1-item">
+                        <figure class="thumnail">
+                          <a href="/news"><img src="master/images/hero_1.jpg" alt="Image" class="img-fluid"></a>
+                          <div class="price">BERITA</div>
+                          <div class="category"><h3>{{ $berita -> kategori }}</h3></div>  
+                        </figure>
+                        <div class="course-1-content pb-4">
+                        <h2>{{ $berita -> judul}}</h2>
+                        <p class="desc mb-5">Oleh : Admin<br>{{$berita -> updated_at}}</p>
+                        <p class="desc mb-4">{{ $berita -> slug}}</p>
+                        <p><a href="/news" class="btn btn-primary rounded-0 px-4">Selengkapnya</a></p>
+                        </div>
+                      </div>
+                  @endforeach
               </div>
-      
           </div>
         </div>
-
-        
-        
       </div>
     </div>
-
     
 
 

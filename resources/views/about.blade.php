@@ -49,7 +49,7 @@
         <div class="row align-items-center">
           <div class="col-lg-9 d-none d-lg-block">
             <a href="#" class="small mr-3"><span class="icon-phone2 mr-2"></span> 022-85962018</a> 
-            <a href="https://instagram/smkpgri35soljer" class="small mr-3"><span class="icon-whatsapp mr-2"></span>Ofiicial Whatsapp</a> 
+            <a href="https://wa.link/t31gwo" class="small mr-3"><span class="icon-whatsapp mr-2"></span>Ofiicial Whatsapp</a> 
           </div>
           <div class="col-lg-3 text-right">
             <a href="/admin" class="small btn btn-primary px-4 py-2 rounded-0 con-unlock-alt"><span class="icon-users"></span> Login</a>
@@ -62,7 +62,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.php" class="d-block">
+            <a href="/" class="d-block">
               <img src="master/images/logo.gif" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -70,7 +70,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li>
-                  <a href="index.php" class="nav-link text-left">Home</a>
+                  <a href="/" class="nav-link text-left">Home</a>
                 </li>
                 <li class="active">
                   <a href="/about" class="nav-link text-left">Profil</a>
@@ -94,9 +94,9 @@
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="/berita" class="nav-link text-left">Berita</a>
-                </li>
+                </li>-->
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
 
@@ -138,11 +138,11 @@
       </div>
     </div>
 
-    <div class="container pt-5 mb-5">
+    <div class="container pt-5 mb-2">
             <div class="row">
-              <div class="col-lg-4">
+              <div class="col-lg-3">
                 <h2 class="section-title-underline">
-                  <span>Sejarah</span>
+                  <span><b>SEJARAH</B></span>
                 </h2>
               </div>
               <div class="col-lg-4">
@@ -153,75 +153,65 @@
                 architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque veritatis numquam placeat?</p>
               </div>
             </div>
-          </div> -->
+      </div> 
 
-    <div class="site-section">
-        <div class="container">
-            <div class="row mb-5">
-                <div class="col-lg-6 mb-lg-0 mb-4">
-                    <img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"> 
-                </div>
-                <div class="col-lg-5 ml-auto align-self-center">
-                    <h2 class="section-title-underline mb-5">
-                        <span>Visi</span>
-                    </h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque dolore libero corrupti! Itaque, delectus?</p>
-                    <p>Modi sit dolor repellat esse! Sed necessitatibus itaque libero odit placeat nesciunt, voluptatum totam facere.</p>
-                </div>
-            </div>
-
+        <div class="container pt-5 mb-5">
             <div class="row">
-                    <div class="col-lg-6 order-1 order-lg-2 mb-4 mb-lg-0">
+                    <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
                         <img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"> 
                     </div>
-                    <div class="col-lg-5 mr-auto align-self-center order-2 order-lg-1">
+                    
+                    <div class="col-lg-6 mr-auto order-2 order-lg-1">
                         <h2 class="section-title-underline mb-5">
-                            <span>Misi</span>
-                        </h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At itaque dolore libero corrupti! Itaque, delectus?</p>
-                        <p>Modi sit dolor repellat esse! Sed necessitatibus itaque libero odit placeat nesciunt, voluptatum totam facere.</p>
-                    </div>
-                </div>
+                        <span><b>MASTER IS OUR VISION<b></span>
+                    </h2>
+                    <p>Membentuk <b>Manusia </b> yang Unggul dalam <br><b>Agama, Sains, Teknologi komputer, <br>Ekonomi, </b>dan <b>Responsif</b></p>
+               </div>
         </div>
     </div>
-
     <div class="section-bg style-1" style="background-image: url('master/images/hero_1.jpg');">
       <div class="container">
+      <div class="row ">
+            <div class="col-lg-12 text-center">
+              <h1 class="section-title-underline mb-0"><span><B>MISI SMK PGRI 35 SOLOKANJERUK</span></h1>
+              <BR><BR>
+            </div>
+          </div>
         <div class="row">
+        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 justify-left-center">
+          <img src="master/images/pgri.png" alt="Image" class="img-fluid">
+          <br>
+          <br>
+          </div>
+          <div class="col-lg-1 col-md-6 mb-5 mb-lg-0 justify-left-center">
+          </div>  
+        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-m"></span>
+            <h1>1. </h1>
+            <p>Memfasilitasi kegiatan-kegiatan pemahaman dan implementasi ajaran agama untuk mencapai kecerdasan IQ, EQ, dan SQ.</p>
+          </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-m"></span>
-            <h1>Manusia</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+            <h1>2. </h1>
+            <p>Menambah buku-buku sumber belajar sebagai referensi untuk menciptakan ilmuwan sejati.</p>
+          </div>
+          <span></span>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <h1>3. </h1>
+            <p>Menambah sarana pembelajaran berupa komputer untuk mencapai kemampuan teknik di bidang komputer dan jaringan</p>
           </div>
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
             <span class="icon flaticon-m"></span>
-            <h1>Agamis</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+            <h1>4. </h1>
+            <p>Mendorong, Mengarahkan dan Membimbing jiwa entrepreneurship atau jiwa wirausaha untuk menciptakan ekonomi baru untuk membangun bangsa.</p>
           </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Science</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Teknologi</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Efektif</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Responsible</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
+          <div class="col-lg-4 col-md-8 mb-5 mb-lg-0">
+            <h1>5. </h1>
+            <p>Mengembangkan dan mengaplikasikan sikap cepat tanggap terhadap permasalahan yang dihadapi oleh dirinya, keluarga, masyarakat, dan bangsa.</p>
           </div>
         </div>
       </div>
     </div>
-      
 
     <div class="site-section">
       <div class="container">

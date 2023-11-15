@@ -94,9 +94,9 @@
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="/berita" class="nav-link text-left">Berita</a>
-                </li>
+                </li>-->
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
 
@@ -154,7 +154,7 @@
                 architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque veritatis numquam placeat?</p>
               </div>
             </div>
-          </div> -->
+          </div>
 
     <div class="site-section">
         <div class="container">

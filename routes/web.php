@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\GuruController;
 use App\Http\Controllers\BeritaController;
+use App\Http\Controllers\HomeController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,6 +20,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('/', [HomeController::class, 'index']);
+
+Route::get('/news', [BeritaController::class, 'news']);
+
 Route::get('/login', function () {
     return view('/admin/login');
 });
@@ -26,6 +31,10 @@ Route::get('/login', function () {
 
 Route::get('/about', function () {
     return view('about');
+});
+
+Route::get('/news', function () {
+    return view('news');
 });
 
 Route::get('/rpl', function () {
@@ -39,6 +48,8 @@ Route::get('/tkj', function () {
 Route::get('/guru-tendik', function () {
     return view('guru-tendik');
 });
+
+Route::get('/guru-tendik', [GuruController::class, 'dataguru']);
 
 Route::get('/sarpras', function () {
     return view('sarpras');
