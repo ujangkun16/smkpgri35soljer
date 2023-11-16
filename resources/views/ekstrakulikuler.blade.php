@@ -62,7 +62,7 @@
       <div class="container">
         <div class="d-flex align-items-center">
           <div class="site-logo">
-            <a href="index.php" class="d-block">
+            <a href="/" class="d-block">
               <img src="master/images/logo.gif" alt="Image" class="img-fluid">
             </a>
           </div>
@@ -70,7 +70,7 @@
             <nav class="site-navigation position-relative text-right" role="navigation">
               <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
                 <li>
-                  <a href="index.php" class="nav-link text-left">Home</a>
+                  <a href="/" class="nav-link text-left">Home</a>
                 </li>
                 <li>
                   <a href="/about" class="nav-link text-left">Profil</a>
@@ -94,9 +94,9 @@
                 <li>
                     <a href="contact.html" class="nav-link text-left">Galeri</a>
                 </li>
-                <li>
+                <!--<li>
                     <a href="/berita" class="nav-link text-left">Berita</a>
-                </li>
+                </li>-->
               </ul>                                                                                                                                                                                                                                                                                          </ul>
             </nav>
 

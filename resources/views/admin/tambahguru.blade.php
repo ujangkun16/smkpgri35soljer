@@ -329,9 +329,35 @@
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Nama Guru" name="nama">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Jenis Kelamin</label>
-                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Jenis Kelamin" name="jenis_kelamin">
+                    <label for="exampleInputEmail1">Jenis Kelamin</label>
+                    <select class="form-control" name="jenis_kelamin" id="jenis_kelamin">
+                    <option value="">Pilih Kategori</option>
+                    <option value="Laki-laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                  </select>
+
+           
                   </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Jabatan</label>
+                    <select class="form-control" name="jabatan" id="jabatan">
+                      <option value="">Pilih Kategori</option>
+                      <option value="Kepala Sekolah">Kepala Sekolah</option>
+                      <option value="Wakasek">Wakil Kepala Sekolah</option>
+                      <option value="Guru">Guru</option>
+                      <option value="Tenaga Kependidikan">Tenaga Kependidikan</option>
+                      <option value="Lainnya">Lainnya</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Tahun Masuk</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Tahun Masuk" name="tahunmasuk">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Pendidikan Terakhir</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Pendidikan Terakhir" name="pendidikan">
+                  </div>
+                  
                   <div class="form-group">
                     <label for="exampleInputPassword1">Mata Pelajaran</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Mata Pelajaran" name="mapel">

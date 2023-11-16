@@ -13,6 +13,13 @@ class GuruController extends Controller
         $guru = Guru::all();
         return view("admin.guru", compact(['guru']));
     }
+
+    public function dataguru()
+    {
+        $dataguru = Guru::all();
+        return view("guru-tendik", compact(['dataguru']));
+    }
+
     public function store(Request $req)
     {
 Guru::create($req->except(['_token','submit']));
