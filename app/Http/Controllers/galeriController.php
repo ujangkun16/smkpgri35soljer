@@ -30,4 +30,38 @@ Galeri::create([
 ]);
 return redirect("/admin/galeri")->with(['succes' => 'Data Berhasil di Simpan']);
     }
+
+    public function hapusgaleri($id)
+    {
+        $galeri=Galeri::find($id);
+        //dd($galeri);
+        $galeri->delete();
+        return redirect('/admin/galeri');
+    }
+
+
+    public function editgaleri($id)
+    {
+        $galeri=Galeri::find($id);
+        //dd($galeri);
+        return view("admin.editgaleri", compact(['galeri']));
+    }
+
+    public function updategaleri($id, Request $request){
+        $galeri=Galeri::find($id);
+      
+        $this->validate($request, [
+            'media' => 'required|image|mimes:png,jpg,jpeg|max:2048'
+        ]);
+        $imageName=time() .'.'. $request->media->extension();
+        $request->media->move(public_path('img'), $imageName);
+        
+        
+        $galeri->update([
+        
+            'media'=> $imageName,
+            'caption' => $request->caption,
+       ]);
+        return redirect('/admin/galeri');
+    }
 }
