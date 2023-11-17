@@ -118,3 +118,7 @@ Route::post('/admin/store', [galeriController::class, 'store']);
 Route::get('/admin/tambahgambar', function () {
     return view('/admin/tambahgambar');
 });
+
+Route::get('/galeri/{id}/editgaleri', [galeriController::class,'editgaleri']);
+Route::post('/admin/{id}/updategaleri', [galeriController::class, 'updategaleri']);
+Route::get('/galeri/{id}/hapusgaleri', [galeriController::class,'hapusgaleri']);

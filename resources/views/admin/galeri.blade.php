@@ -197,8 +197,8 @@
                       <img src="../img/{{ $datagaleri->media }}" alt={{ $datagaleri->media }} width=90px>
                     </td>
                     <td>{{ $datagaleri -> caption}}</td>
-                    <td></td>
-                    <td></td>
+                   <td><a href="/galeri/{{$datagaleri->id}}/hapusgaleri"  onclick="return confirm('Apakah Anda yakin ingin menghapus berita {{$datagaleri->caption}} ?');" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i>Hapus</a> </button>| 
+                    <button><a href="/galeri/{{$datagaleri->id}}/editgaleri" class="btn btn-info btn-sm"><i class="fa fa-edit"></i>Edit</a></button></td>
                   </tr>
                   @endforeach
 </tbody>
