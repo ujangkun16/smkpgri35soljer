@@ -171,10 +171,10 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-5">
 
             <div class="feature-1 border person text-center">
-                <img src="master/images/person_1.jpg" alt="Image" class="img-fluid">
+                <img src="master/images/osis.jpg" alt="Image" class="img-fluid">
               <div class="feature-1-content">
                 <h2>Organisasi Siswa Intra Sekolah (OSIS)</h2>
                 <a href="https://www.instagram.com/osis_smk_pgri_35_solokan_jeruk/" class="position mb-3 d-block"><span class="icon-instagram mr-2"></span>osis_smk_pgri_35_solokan_jeruk</a>   
@@ -182,54 +182,33 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-5">
             <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
+                <img src="master/images/rohis.jpg" alt="Image" class="img-fluid">
               <div class="feature-1-content">
-              <h2>Rohani Islam<br>(ROHIS)</h2>
+              <h2>Rohani Islam (ROHIS)</h2>
                 <a href="https://www.instagram.com/rohis_smkpgri35soljer/" class="position mb-3 d-block"><span class="icon-instagram mr-2"></span>rohis_smkpgri35soljer</a>   
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-5">
             <div class="feature-1 border person text-center">
-                <img src="master/images/person_3.jpg" alt="Image" class="img-fluid">
+                <img src="master/images/pramuka.jpg" alt="Image" class="img-fluid">
               <div class="feature-1-content">
-              <h2>Praja Muda Karana<br>(PRAMUKA)</h2>
+              <h2>Praja Muda Karana (PRAMUKA)</h2>
                 <a href="#" class="position mb-3 d-block"><span class="icon-instagram mr-2"></span>pramuka_smkpgri35soljer</a>   
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-
+          <div class="col-lg-6 col-md-6 mb-5 mb-lg-5">
             <div class="feature-1 border person text-center">
-                <img src="master/images/person_4.jpg" alt="Image" class="img-fluid">
+                <img src="master/images/futsal.jpg" alt="Image" class="img-fluid">
               <div class="feature-1-content">
-              <h2>Komunitas Futsal Siswa<br>(KOFUS)</h2>
+              <h2>Futsal Club</h2>
                 <a href="https://www.instagram.com/futsal_smkpgri35_soljer/" class="position mb-3 d-block"><span class="icon-instagram mr-2"></span>futsal_smkpgri35_soljer</a>   
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Taylor Simpson</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_3.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Jonas Tabble</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
               </div>
             </div>

@@ -169,17 +169,19 @@
           </div>
         </div>
         <div class="row">
+        
+        
         <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
             <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
+                <img src="../img/{{$dataguru->avatar}}" alt="{{$dataguru}}->avatar" class="img-fluid">
               <div class="feature-1-content">
-                <h2>Taylor Simpson</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                <h2>{{$dataguru -> nama}}</h2>
+                <span class="position mb-3 d-block">{{$dataguru -> mapel}}</span>    
+                <p>Lulusan <b>{{$dataguru -> pendidikan}}.</b> Mengabdi sejak tahun {{$dataguru -> tahunmasuk}}, dengan motto hidup <b>{{$dataguru -> motto}}.</b></p>
               </div>
             </div>
           </div>
-        </div>
+        
       </div>
     </div>
     
@@ -192,8 +194,7 @@
           </div>
         </div>
         <div class="row">
-        @foreach ($dataguru as $dataguru)
-        @if($dataguru->jabatan == 'guru')
+       
           <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
             <div class="feature-1 border person text-center">
                 <img src="../img/{{$dataguru->avatar}}" alt="{{$dataguru}}->avatar" class="img-fluid">
@@ -204,8 +205,6 @@
               </div>
             </div>
           </div>
-          @endif
-          @endforeach
          
         </div>
       </div>

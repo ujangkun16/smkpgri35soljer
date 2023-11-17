@@ -160,13 +160,12 @@
                     <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
                         <img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"> 
                     </div>
-                    
                     <div class="col-lg-6 mr-auto order-2 order-lg-1">
                         <h2 class="section-title-underline mb-5">
                         <span><b>MASTER IS OUR VISION<b></span>
                     </h2>
                     <p>Membentuk <b>Manusia </b> yang Unggul dalam <br><b>Agama, Sains, Teknologi komputer, <br>Ekonomi, </b>dan <b>Responsif</b></p>
-               </div>
+            </div>
         </div>
     </div>
     <div class="container pt-5">

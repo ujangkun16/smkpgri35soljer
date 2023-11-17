@@ -342,11 +342,11 @@
                     <label for="exampleInputEmail1">Jabatan</label>
                     <select class="form-control" name="jabatan" id="jabatan">
                       <option value="">Pilih Kategori</option>
-                      <option value="Kepala Sekolah">Kepala Sekolah</option>
-                      <option value="Wakasek">Wakil Kepala Sekolah</option>
-                      <option value="Guru">Guru</option>
-                      <option value="Tenaga Kependidikan">Tenaga Kependidikan</option>
-                      <option value="Lainnya">Lainnya</option>
+                      <option value="kepala Sekolah">Kepala Sekolah</option>
+                      <option value="wakasek">Wakil Kepala Sekolah</option>
+                      <option value="guru">Guru</option>
+                      <option value="tekpend">Tenaga Kependidikan</option>
+                      <option value="lainnya">Lainnya</option>
                     </select>
                   </div>
                   <div class="form-group">

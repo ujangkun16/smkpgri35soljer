@@ -120,7 +120,7 @@
 
     
     <div class="hero-slide owl-carousel site-blocks-cover">
-      <div class="intro-section" style="background-image: url('master/images/hero_1.jpg');">
+      <div class="intro-section" style="background-image: url('master/images/hero_2.jpg');">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
@@ -135,7 +135,7 @@
         </div>
       </div>
 
-      <div class="intro-section" style="background-image: url('master/images/hero_2.jpg');">
+      <div class="intro-section" style="background-image: url('master/images/hero_1.jpg');">
         <div class="container">
           <div class="row align-items-center">
             <div class="col-lg-12 mx-auto text-center" data-aos="fade-up">
@@ -237,115 +237,48 @@
     
 
 
-    <div class="section-bg style-1" style="background-image: url('images/about_1.jpg');">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4">
-            <h2 class="section-title-underline style-2">
-              <span>Kata Sambutan</span>
-            </h2>
-          </div>
-          <div class="col-lg-8">
-            <p class="lead">Selamat datang di SMK PGRI 35 Solokanjeruk, lembaga pendidikan yang berdedikasi untuk memberikan pendidikan berkualitas dan pembelajaran inovatif kepada para generasi muda. Program pendidikan kami didesain untuk mempersiapkan siswa tidak hanya secara akademis, tetapi juga secara sosial dan emosional, dengan menekankan nilai-nilai etika, kepemimpinan, dan kerjasama.
-<p>Di SMK PGRI 35 Solokanjeruk, kami menawarkan berbagai macam program pendidikan dan kegiatan ekstrakurikuler yang melengkapi kurikulum akademis. Dengan fasilitas modern dan berbagai sumber daya pendukung, kami menciptakan lingkungan yang mendukung eksplorasi kreatif dan pengembangan potensi siswa.</p> </p>
-            <p>Kami mempersembahkan ... <a href="#">Selengkapnya</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
+    <div class="section-bg style-1" style="background-image: url('master/images/about_1.jpg');">
+    <div class="container pt-5 mb-5">
+            <div class="row">
+                    <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
+                        <img src="master/images/kepsek.png" alt="Image" class="img-fluid"> 
+                    </div>
+                    <div class="col-lg-6 mr-auto order-2 order-lg-1">
+                    <h2 class="section-title-underline style-2">
+                      <span>Sambutan Kepala Sekolah</span>
+                    </h2>
+                    <p>Selamat Datang di SMK PGRI 35 Solokanjeruk!<br>Dengan penuh kegembiraan dan semangat yang membara, kami mengucapkan selamat datang kepada seluruh di pusat informasi SMK PGRI 35 Solokanjeruk!
+                    <br>SMK PGRI 35 Solokanjeruk adalah wadah di mana impian menjadi kenyataan, pengetahuan ditingkatkan, dan potensi terwujud. Kami berkomitmen untuk memberikan pendidikan berkualitas, membentuk karakter yang tangguh, serta menciptakan lingkungan yang mendukung pertumbuhan dan prestasi bagi setiap siswa. Melalui pendekatan yang inovatif, kurikulum yang relevan, serta fasilitas yang memadai, kami siap membantu siswa mencapai kesuksesan di masa depan.
+                    Di SMK PGRI 35 Solokanjeruk, kami memahami bahwa pendidikan tidak hanya tentang buku teks, tetapi juga tentang memupuk nilai-nilai, kreativitas, kepemimpinan, dan keterampilan untuk menghadapi dunia yang terus berubah.
 
+Kami mengundang Anda untuk bergabung dengan kami dalam perjalanan pendidikan yang menginspirasi, membangun, dan menciptakan masa depan yang gemilang. Mari bersama-sama mencapai impian dan tujuan kita.
+
+Terima kasih atas kepercayaan yang Anda berikan kepada kami. Saya yakin, bersama-sama kita akan menciptakan prestasi gemilang untuk masa depan yang lebih baik.
+
+Salam hormat,
+
+[Nama Kepala Sekolah]
+Kepala Sekolah SMK PGRI 35 Solokanjeruk</p>
+            </div>
+        </div>
+    </div>
+</div>
     <!-- // 05 - Block -->
   <div class="site-section">
       <div class="container">
         <div class="row mb-5">
           <div class="col-lg-4">
             <h2 class="section-title-underline">
-              <span>Testimoni Siswa</span> <!--// database-->
+              <span>MITRA INDUSTRI</span> <!--// database-->
             </h2>
           </div>
         </div>
-
-
         <div class="owl-slide owl-carousel">
-
-          <div class="ftco-testimonial-1">
+        <div class="ftco-testimonial-1">
             <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_1.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
+            <img src="master/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
             </div>
           </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_3.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_2.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>&ldquo;Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!&rdquo;</p>
-            </div>
-          </div>
-
-          <div class="ftco-testimonial-1">
-            <div class="ftco-testimonial-vcard d-flex align-items-center mb-4">
-              <img src="master/images/person_4.jpg" alt="Image" class="img-fluid mr-3">
-              <div>
-                <h3>Allison Holmes</h3>
-                <span>Designer</span>
-              </div>
-            </div>
-            <div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque, mollitia. Possimus mollitia nobis libero quidem aut tempore dolore iure maiores, perferendis, provident numquam illum nisi amet necessitatibus. A, provident aperiam!</p>
-            </div>
-          </div>
-
         </div>
         
       </div>

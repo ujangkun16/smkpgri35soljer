@@ -16,7 +16,7 @@ class galeriController extends Controller
 
     public function tampil()
     {
-        $tampil = Galeri::all();
+        $tampil = Galeri::orderBy('created_at','DESC')->get();
         return view('galeri', compact(['tampil']));
     }
 
