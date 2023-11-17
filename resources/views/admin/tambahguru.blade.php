@@ -377,10 +377,18 @@
                     <label for="exampleInputPassword1">Tanggal Lahir</label>
                     <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Tanggal Lahir" name="tgl_lahir">
                   </div>
+                  <div class="form-group">
+                    <label for="exampleInputPassword1">Motto Hidup</label>
+                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Motto Hidup" name="motto">
+                  </div>
 
-
-
-                
+                  <div class="form-group">
+                                <label class="font-weight-bold">Pas Foto</label>
+                                <input type="file" class="form-control @error('image') is-invalid @enderror" name="avatar" value="{{old('avatar')}}">
+													 @if($errors->has('avatar'))
+												    	<span class="help-block">{{$errors->first('avatar')}}</span>
+												    @endif
+                    </div>
 
                 <div class="form-group">
                     <label for="exampleInputPassword1">Password</label>

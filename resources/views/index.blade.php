@@ -93,7 +93,7 @@
                   <a href="/ekstrakulikuler" class="nav-link text-left">Ekstrakulikuler</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="nav-link text-left">Galeri</a>
+                    <a href="/galeri" class="nav-link text-left">Galeri</a>
                 </li>
                 <!--<li>
                     <a href="/berita" class="nav-link text-left">Berita</a>
@@ -352,138 +352,22 @@
     </div>
     
 
-    <div class="section-bg style-1" style="background-image: url('images/hero_1.jpg');">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <span class="icon flaticon-m"></span>
-            <h1>Manusia</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <span class="icon flaticon-m"></span>
-            <h1>Agamis</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Science</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Teknologi</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Efektif</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>Responsible</h1>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
-              Dolore, amet reprehenderit.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="news-updates">
-      <div class="container">
-         
-        <div class="row">
-          <div class="col-lg-9">
-             <div class="section-heading">
-              <h2 class="text-black">News &amp; Updates</h2>
-              <a href="#">Read All News</a>
-            </div>
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="post-entry-big">
-                  <a href="news-single.html" class="img-link"><img src="master/images/blog_large_1.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="post-content">
-                    <div class="post-meta"> 
-                      <a href="#">June 6, 2019</a>
-                      <span class="mx-1">/</span>
-                      <a href="#">Admission</a>, <a href="#">Updates</a>
-                    </div>
-                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-6">
-                <div class="post-entry-big horizontal d-flex mb-4">
-                  <a href="news-single.html" class="img-link mr-4"><img src="master/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="post-content">
-                    <div class="post-meta">
-                      <a href="#">June 6, 2019</a>
-                      <span class="mx-1">/</span>
-                      <a href="#">Admission</a>, <a href="#">Updates</a>
-                    </div>
-                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                  </div>
-                </div>
-
-                <div class="post-entry-big horizontal d-flex mb-4">
-                  <a href="news-single.html" class="img-link mr-4"><img src="master/images/blog_2.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="post-content">
-                    <div class="post-meta">
-                      <a href="#">June 6, 2019</a>
-                      <span class="mx-1">/</span>
-                      <a href="#">Admission</a>, <a href="#">Updates</a>
-                    </div>
-                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                  </div>
-                </div>
-
-                <div class="post-entry-big horizontal d-flex mb-4">
-                  <a href="news-single.html" class="img-link mr-4"><img src="master/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
-                  <div class="post-content">
-                    <div class="post-meta">
-                      <a href="#">June 6, 2019</a>
-                      <span class="mx-1">/</span>
-                      <a href="#">Admission</a>, <a href="#">Updates</a>
-                    </div>
-                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-3">
-            <div class="section-heading">
-              <h2 class="text-black">Campus Videos</h2>
-              <a href="#">View All Videos</a>
-            </div>
-            <iframe width="260" height="180" src="https://www.youtube-nocookie.com/embed/9wAeh-_ACP8?si=VBHRHrdXQcIHkNyk&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            <a href="https://www.youtube.com/watch?v=9wAeh-_ACP8" class="video-1 mb-4" data-fancybox="" data-ratio="2">
-                <span class="play">
-                  <span class="icon-play"></span>
-                </span>
-                <img src="master/images/course_5.jpg" alt="Image" class="img-fluid">
-              </a>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="site-section ftco-subscribe-1" style="background-image: url('images/bg_1.jpg')">
+    <div class="site-section ftco-subscribe-1" style="background-image: url('master/images/bg_1.jpg')">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-7">
-            <h2>Subscribe to us!</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
+          <div class="col-lg-4">
+            <h2>Kritik dan Saran</h2>
+            <p>Silahkan sampaikan kritik dan saran anda disini</p>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-8">
             <form action="" class="d-flex">
-              <input type="text" class="rounded form-control mr-2 py-3" placeholder="Enter your email">
-              <button class="btn btn-primary rounded py-3 px-4" type="submit">Send</button>
+              <input type="text" class="rounded form-control mr-2 py-3" placeholder="Kritik dan Saran">
+              <button class="btn btn-primary rounded py-3 px-4" type="submit">Kirim</button>
             </form>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
 
 
     

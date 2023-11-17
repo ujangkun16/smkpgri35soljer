@@ -92,7 +92,7 @@
                   <a href="/ekstrakulikuler" class="nav-link text-left">Ekstrakulikuler</a>
                 </li>
                 <li>
-                    <a href="contact.html" class="nav-link text-left">Galeri</a>
+                    <a href="/galeri" class="nav-link text-left">Galeri</a>
                 </li>
                 <!--<li>
                     <a href="/berita" class="nav-link text-left">Berita</a>
@@ -242,19 +242,19 @@
     <div class="site-section ftco-subscribe-1" style="background-image: url('master/images/bg_1.jpg')">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-lg-7">
-            <h2>Subscribe to us!</h2>
-            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia,</p>
+          <div class="col-lg-4">
+            <h2>Kritik dan Saran</h2>
+            <p>Silahkan sampaikan kritik dan saran anda disini</p>
           </div>
-          <div class="col-lg-5">
+          <div class="col-lg-8">
             <form action="" class="d-flex">
-              <input type="text" class="rounded form-control mr-2 py-3" placeholder="Enter your email">
-              <button class="btn btn-primary rounded py-3 px-4" type="submit">Send</button>
+              <input type="text" class="rounded form-control mr-2 py-3" placeholder="Kritik dan Saran">
+              <button class="btn btn-primary rounded py-3 px-4" type="submit">Kirim</button>
             </form>
           </div>
         </div>
       </div>
-    </div> 
+    </div>
 
 
     

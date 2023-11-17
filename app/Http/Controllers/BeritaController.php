@@ -13,6 +13,8 @@ class BeritaController extends Controller
         $berita = Berita::all();
         return view("admin.berita", compact(['berita']));
     }
+
+    
     public function store(Request $req)
     {
 Berita::create($req->except(['_token','submit']));

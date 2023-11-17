@@ -72,7 +72,7 @@
                 <li>
                   <a href="/" class="nav-link text-left">Home</a>
                 </li>
-                <li class="active">
+                <li>
                   <a href="/about" class="nav-link text-left">Profil</a>
                 </li>
                 <li class="has-children">
@@ -91,7 +91,7 @@
                 <li>
                   <a href="/ekstrakulikuler" class="nav-link text-left">Ekstrakulikuler</a>
                 </li>
-                <li>
+                <li class="active">
                     <a href="/galeri" class="nav-link text-left">Galeri</a>
                 </li>
                 <!--<li>
@@ -103,7 +103,7 @@
           </div>
           <div class="ml-auto">
             <div class="social-wrap">
-              <a href="https://www.instagram.com/smkpgri_35soljer/" target="_blank"><span class="icon-instagram"></span></a>
+            <a href="https://www.instagram.com/smkpgri_35soljer/" target="_blank"><span class="icon-instagram"></span></a>
               <a href="https://www.facebook.com/smkpgri35soljer/" target="_blank"><span class="icon-facebook"></span></a>
               <a href="https://www.youtube.com/@smkpgri35solokanjeruk12" target="_blank"><span class="icon-youtube"></span></a>
 
@@ -122,7 +122,7 @@
         <div class="container">
           <div class="row align-items-end">
             <div class="col-lg-7">
-              <h2 class="mb-0">Tentang kami</h2>
+              <h2 class="mb-0">Galeri Sekolah</h2>
               <p></p>
             </div>
           </div>
@@ -132,175 +132,151 @@
 
     <div class="custom-breadcrumns border-bottom">
       <div class="container">
-        <a href="#">Home</a>
-        <span class="mx-3 icon-keyboard_arrow_right"></span>
-        <span class="current">Profil</span>
+        <span class="current">Galeri</span>
       </div>
     </div>
-
-    <div class="container pt-5 mb-2">
-            <div class="row">
-              <div class="col-lg-3">
-                <h2 class="section-title-underline">
-                  <span><b>SEJARAH</B></span>
-                </h2>
-              </div>
-              <div class="col-lg-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, iure dolorum! Nam veniam tempore tenetur aliquam architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque veritatis numquam placeat?</p>
-              </div>
-              <div class="col-lg-4">
-                <p>Nam veniam tempore tenetur aliquam
-                architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque veritatis numquam placeat?</p>
-              </div>
-            </div>
-      </div> 
-
-        <div class="container pt-5 mb-5">
-            <div class="row">
-                    <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
-                        <img src="master/images/hero_2.jpg" alt="Image" class="img-fluid"> 
-                    </div>
-                    
-                    <div class="col-lg-6 mr-auto order-2 order-lg-1">
-                        <h2 class="section-title-underline mb-5">
-                        <span><b>MASTER IS OUR VISION<b></span>
-                    </h2>
-                    <p>Membentuk <b>Manusia </b> yang Unggul dalam <br><b>Agama, Sains, Teknologi komputer, <br>Ekonomi, </b>dan <b>Responsif</b></p>
-               </div>
-        </div>
-    </div>
-    <div class="container pt-5">
-    <div class="row">
-    <div class="col-lg-12 mr-auto order-1 order-lg-1">
-    <h2 class="section-title-underline"><span><B>MISI SMK PGRI 35 SOLOKANJERUK</span></h2><br>
-    </div>
-    </div>
-</div>
-    <div class="section-bg style-1" style="background-image: url('master/images/hero_1.jpg');">
-      <div class="container">
-      <div class="row ">
-        <div class="row">
-        <div class="col-lg-3 col-md-6 mb-5 mb-lg-0 justify-left-center">
-          <img src="master/images/pgri.png" alt="Image" class="img-fluid">
-          <br>
-          <br>
-          </div>
-          <div class="col-lg-1 col-md-6 mb-5 mb-lg-0 justify-left-center">
-          </div>  
-        <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <span class="icon flaticon-m"></span>
-            <h1>1. </h1>
-            <p>Memfasilitasi kegiatan-kegiatan pemahaman dan implementasi ajaran agama untuk mencapai kecerdasan IQ, EQ, dan SQ.</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <span class="icon flaticon-m"></span>
-            <h1>2. </h1>
-            <p>Menambah buku-buku sumber belajar sebagai referensi untuk menciptakan ilmuwan sejati.</p>
-          </div>
-          <span></span>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <h1>3. </h1>
-            <p>Menambah sarana pembelajaran berupa komputer untuk mencapai kemampuan teknik di bidang komputer dan jaringan</p>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-            <span class="icon flaticon-m"></span>
-            <h1>4. </h1>
-            <p>Mendorong, Mengarahkan dan Membimbing jiwa entrepreneurship atau jiwa wirausaha untuk menciptakan ekonomi baru untuk membangun bangsa.</p>
-          </div>
-          <div class="col-lg-4 col-md-8 mb-5 mb-lg-0">
-            <h1>5. </h1>
-            <p>Mengembangkan dan mengaplikasikan sikap cepat tanggap terhadap permasalahan yang dihadapi oleh dirinya, keluarga, masyarakat, dan bangsa.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-</div>
 
     <div class="site-section">
+        <div class="container">
+            <div class="row">
+            @foreach ($tampil as $tampil)
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="course-1-item">
+                        <figure class="thumnail">
+                        <a href="course-single.html"><img src="../img/{{$tampil->media}}" alt="{{$tampil}}->media" class="img-fluid"></a>
+                        <div class="category"><h3>{{$tampil->caption}}</h3></div>  
+                        </figure>
+                        <div class="course-1-content pb-4">
+                        <p class="desc mb-4">{{$tampil->updated_at}}</p>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+            </div>
+        </div>
+    </div>
+
+    <div class="section-bg style-1" style="background-image: url('master/images/hero_1.jpg');">
       <div class="container">
-        <div class="row mb-5 justify-content-center text-center">
-          <div class="col-lg-4 mb-5">
-            <h2 class="section-title-underline mb-5">
-              <span>Struktur Organisasi</span>
-            </h2>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-m"></span>
+            <h1>Manusia</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <span class="icon flaticon-m"></span>
+            <h1>Agamis</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <h1>Science</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
+              Dolore, amet reprehenderit.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <h1>Teknologi</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
+              Dolore, amet reprehenderit.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <h1>Efektif</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
+              Dolore, amet reprehenderit.</p>
+          </div>
+          <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
+            <h1>Responsible</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea?
+              Dolore, amet reprehenderit.</p>
           </div>
         </div>
+      </div>
+    </div>
+    
+    <div class="news-updates">
+      <div class="container">
+         
         <div class="row">
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
+          <div class="col-lg-9">
+             <div class="section-heading">
+              <h2 class="text-black">News &amp; Updates</h2>
+              <a href="#">Read All News</a>
+            </div>
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="post-entry-big">
+                  <a href="news-single.html" class="img-link"><img src="master/master/images/blog_large_1.jpg" alt="Image" class="img-fluid"></a>
+                  <div class="post-content">
+                    <div class="post-meta"> 
+                      <a href="#">June 6, 2019</a>
+                      <span class="mx-1">/</span>
+                      <a href="#">Admission</a>, <a href="#">Updates</a>
+                    </div>
+                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="post-entry-big horizontal d-flex mb-4">
+                  <a href="news-single.html" class="img-link mr-4"><img src="master/master/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+                  <div class="post-content">
+                    <div class="post-meta">
+                      <a href="#">June 6, 2019</a>
+                      <span class="mx-1">/</span>
+                      <a href="#">Admission</a>, <a href="#">Updates</a>
+                    </div>
+                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
+                  </div>
+                </div>
 
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_1.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Craig Daniel</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Taylor Simpson</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_3.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Jonas Tabble</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
-          </div>
+                <div class="post-entry-big horizontal d-flex mb-4">
+                  <a href="news-single.html" class="img-link mr-4"><img src="master/master/images/blog_2.jpg" alt="Image" class="img-fluid"></a>
+                  <div class="post-content">
+                    <div class="post-meta">
+                      <a href="#">June 6, 2019</a>
+                      <span class="mx-1">/</span>
+                      <a href="#">Admission</a>, <a href="#">Updates</a>
+                    </div>
+                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
+                  </div>
+                </div>
 
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_4.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Craig Daniel</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
+                <div class="post-entry-big horizontal d-flex mb-4">
+                  <a href="news-single.html" class="img-link mr-4"><img src="master/master/images/blog_1.jpg" alt="Image" class="img-fluid"></a>
+                  <div class="post-content">
+                    <div class="post-meta">
+                      <a href="#">June 6, 2019</a>
+                      <span class="mx-1">/</span>
+                      <a href="#">Admission</a>, <a href="#">Updates</a>
+                    </div>
+                    <h3 class="post-heading"><a href="news-single.html">Campus Camping and Learning Session</a></h3>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_2.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Taylor Simpson</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
+          <div class="col-lg-3">
+            <div class="section-heading">
+              <h2 class="text-black">Campus Videos</h2>
+              <a href="#">View All Videos</a>
             </div>
-          </div>
-          <div class="col-lg-4 col-md-6 mb-5 mb-lg-5">
-            <div class="feature-1 border person text-center">
-                <img src="master/images/person_3.jpg" alt="Image" class="img-fluid">
-              <div class="feature-1-content">
-                <h2>Jonas Tabble</h2>
-                <span class="position mb-3 d-block">Math Teacher</span>    
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit morbi hendrerit elit</p>
-              </div>
-            </div>
+            <a href="https://vimeo.com/45830194" class="video-1 mb-4" data-fancybox="" data-ratio="2">
+              <span class="play">
+                <span class="icon-play"></span>
+              </span>
+              <img src="master/master/images/course_5.jpg" alt="Image" class="img-fluid">
+            </a>
+            <a href="https://vimeo.com/45830194" class="video-1 mb-4" data-fancybox="" data-ratio="2">
+                <span class="play">
+                  <span class="icon-play"></span>
+                </span>
+                <img src="master/master/images/course_5.jpg" alt="Image" class="img-fluid">
+              </a>
           </div>
         </div>
       </div>
     </div>
 
-
-    
-    
-
-
-    
-
-    
     <div class="site-section ftco-subscribe-1" style="background-image: url('master/images/bg_1.jpg')">
       <div class="container">
         <div class="row align-items-center">
@@ -316,14 +292,14 @@
           </div>
         </div>
       </div>
-    </div> 
+    </div>
 
 
-    
     
 
   </div>
   <!-- .site-wrap -->
+
 
   <!-- loader -->
   <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#51be78"/></svg></div>

@@ -14,6 +14,12 @@ class galeriController extends Controller
         return view('admin.galeri', compact('datagaleri'));
     }
 
+    public function tampil()
+    {
+        $tampil = Galeri::all();
+        return view('galeri', compact(['tampil']));
+    }
+
     public function store(Request $request): RedirectResponse
     {
 $this->validate($request, [

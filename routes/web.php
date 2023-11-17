@@ -60,6 +60,12 @@ Route::get('/ekstrakulikuler', function () {
     return view('ekstrakulikuler');
 });
 
+Route::get('/galeri', function () {
+    return view('galeri');
+});
+
+Route::get('/galeri', [galeriController::class, 'tampil']);
+
 Route::get('/admin', function () {
     return view('/admin/index');
 });
