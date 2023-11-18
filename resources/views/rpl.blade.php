@@ -120,7 +120,7 @@
           <div class="row align-items-end">
             <div class="col-lg-7">
               <h2 class="mb-0">Rekayasa Perangkat Lunak</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+             
             </div>
           </div>
         </div>
@@ -144,15 +144,17 @@
                   <span>Deskripsi</span>
                 </h2>
               </div>
-              <div class="col-lg-4">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, iure dolorum! Nam veniam tempore tenetur aliquam architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque veritatis numquam placeat?</p>
-              </div>
-              <div class="col-lg-4">
-                <p>Nam veniam tempore tenetur aliquam
-                architecto, hic alias quia quisquam, obcaecati laborum dolores. Ex libero cumque veritatis numquam placeat?</p>
+            </div>
+            <div class="col-lg-12">
+                <p>Selamat datang di Program Keahlian Rekayasa Perangkat Lunak SMK PGRI 35 Solokanjeruk! Jurusan ini merupakan wadah pendidikan yang mempersiapkan siswa untuk memasuki dunia teknologi informasi dengan penguasaan mendalam dalam pengembangan perangkat lunak.<br>Dalam kurikulum kami, siswa akan mendapatkan pemahaman mendalam tentang pemrograman, analisis sistem, basis data, teknologi web, keamanan perangkat lunak, dan teknik pengembangan aplikasi. Kami mengutamakan pembelajaran aktif melalui proyek-proyek yang menantang, memungkinkan siswa untuk menerapkan pengetahuan mereka dalam situasi nyata.
+                <br>Fasilitas modern dan perangkat lunak terkini kami mendukung proses pembelajaran yang interaktif dan mendalam. Di samping itu, kolaborasi dengan praktisi industri dan pelatihan praktis yang terkini membantu siswa mempersiapkan diri untuk menghadapi tantangan dunia kerja di bidang teknologi informasi.
+            </div>
+              <div class="col-lg-12">
+                <p>Kami berkomitmen untuk menghasilkan lulusan yang siap terjun ke dunia kerja atau melanjutkan pendidikan ke jenjang yang lebih tinggi dengan bekal pengetahuan, keterampilan, dan sikap profesional yang kokoh. Setiap langkah di SMK PGRI 35 Solokanjeruk dirancang untuk menumbuhkan kreativitas, kemampuan pemecahan masalah, serta kepemimpinan dalam menghadapi revolusi digital.
+                  <br>Bergabunglah dengan kami di Program Keahlian Rekayasa Perangkat Lunak SMK PGRI 35 Solokanjeruk dan jelajahi peluang tak terbatas di dunia teknologi informasi</p>
               </div>
             </div>
-          </div> -->
+      </div> -->
 
     <div class="site-section">
         <div class="container">

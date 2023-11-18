@@ -174,7 +174,6 @@
               <div class="feature-1-content">
                 <h2>Rekayasa Perangkat Lunak</h2>
                 <p>Mempersiapkan siswa untuk menjadi ahli dalam merancang, mengembangkan, dan mengelola perangkat lunak inovatif untuk memenuhi tuntutan teknologi yang terus berkembang.</p>
-                <p><a href="/rpl" class="btn btn-primary px-4 rounded-0">Selengkapnya</a></p>
               </div>
             </div>
           </div>
@@ -241,24 +240,19 @@
     <div class="container pt-5 mb-5">
             <div class="row">
                     <div class="col-lg-5 order-1 order-lg-2 mb-4 mb-lg-0">
-                        <img src="master/images/kepsek.png" alt="Image" class="img-fluid"> 
+                    <BR>   
+                    <img src="master/images/kepsek.png" alt="Image" class="img-fluid"> 
                     </div>
-                    <div class="col-lg-6 mr-auto order-2 order-lg-1">
+                    <div class="col-lg-7 mr-auto order-2 order-lg-1">
                     <h2 class="section-title-underline style-2">
                       <span>Sambutan Kepala Sekolah</span>
                     </h2>
-                    <p>Selamat Datang di SMK PGRI 35 Solokanjeruk!<br>Dengan penuh kegembiraan dan semangat yang membara, kami mengucapkan selamat datang kepada seluruh di pusat informasi SMK PGRI 35 Solokanjeruk!
+                    <BR>
+                    <BR>
+                    <p><b>Selamat Datang di SMK PGRI 35 Solokanjeruk!</b><br>Dengan penuh kegembiraan dan semangat yang membara, kami mengucapkan selamat datang di pusat informasi SMK PGRI 35 Solokanjeruk!
                     <br>SMK PGRI 35 Solokanjeruk adalah wadah di mana impian menjadi kenyataan, pengetahuan ditingkatkan, dan potensi terwujud. Kami berkomitmen untuk memberikan pendidikan berkualitas, membentuk karakter yang tangguh, serta menciptakan lingkungan yang mendukung pertumbuhan dan prestasi bagi setiap siswa. Melalui pendekatan yang inovatif, kurikulum yang relevan, serta fasilitas yang memadai, kami siap membantu siswa mencapai kesuksesan di masa depan.
-                    Di SMK PGRI 35 Solokanjeruk, kami memahami bahwa pendidikan tidak hanya tentang buku teks, tetapi juga tentang memupuk nilai-nilai, kreativitas, kepemimpinan, dan keterampilan untuk menghadapi dunia yang terus berubah.
-
-Kami mengundang Anda untuk bergabung dengan kami dalam perjalanan pendidikan yang menginspirasi, membangun, dan menciptakan masa depan yang gemilang. Mari bersama-sama mencapai impian dan tujuan kita.
-
-Terima kasih atas kepercayaan yang Anda berikan kepada kami. Saya yakin, bersama-sama kita akan menciptakan prestasi gemilang untuk masa depan yang lebih baik.
-
-Salam hormat,
-
-[Nama Kepala Sekolah]
-Kepala Sekolah SMK PGRI 35 Solokanjeruk</p>
+                    <BR>
+                    <br><B>Salam hormat,<br>Kepala Sekolah SMK PGRI 35 Solokanjeruk<B></p>
             </div>
         </div>
     </div>
